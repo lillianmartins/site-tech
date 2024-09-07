@@ -44,7 +44,7 @@ Agradeço à Alura que vem me ensinando há mais de um ano e ao Google pela opor
 
 **Vamos juntos construir um futuro mais tecnológico!** 
 
-**Link repositório:** 
+**Link repositório:** https://github.com/lillianmartins/site-tech
 **Link Linkedin:** https://www.linkedin.com/in/mcruzlillian/
 
 
