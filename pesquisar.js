@@ -39,6 +39,12 @@ function pesquisar() {
             `;
         };
     };
+
+    // Se a palavra não for encontrada
+    if (!exibirPesquisa) {
+        exibirPesquisa = `<h2 class="mensagem"> < Ops! Não encontramos sua palavra. Tente outra. > </h2>`;
+    };
+    
     // Atribui os resultados gerados à seção HTML
     exibirDados.innerHTML = exibirPesquisa;
 };
