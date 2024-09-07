@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Caminho Tech</title>
+</head>
+
+<body>
+    <header>
+        <div class="caixa-opaca">
+            <h1>(Olá, mundo!)</h1>
+            <h2>Debug o seu lado tech</h2>
+        </div>
+        <section class="pesquisa">
+            <input type="text" placeholder="Qual assunto deseja aprender?" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+    </header>
+    <main id="main">
+        <section class="tela-inicial">
+            <div class="texto">
+                <h2>Bem-vindo ao mundo da tecnologia!</h2>
+                <p>Aprenda a programar e resolva problemas como um verdadeiro desenvolvedor. <br>
+                    Debug é o processo de encontrar e corrigir erros, que te impedem de dominar a tecnologia, te
+                    ajudando a aprender e crescer. É a ferramenta que você precisa para construir seu futuro digital.
+                    <br>
+                    Junte-se a nós e embarque nessa jornada tecnológica!</p>
+            </div>
+            <img src="img/cat-code.jpeg" alt="Imagem de um gato em frente a uma tela de código">
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <div class="tela-principal">
+                <p>Que tal começar por assuntos mais básicos?<br>
+                    Front-end, Back-end, HTML, CSS, JavaScript...<br>
+                    Pesquise o que deseja aprender.</p>
+                <button onclick="mostrarTudo()" id="mostrar-tudo">Mostrar Tudo</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Vídeos de tecnologia</p>
+        <p>Todos os direitos reservados - 2024</p>
+        <p>Desenvolvido por Lillian Martins Cruz</p>
+        <p><a href="https://www.linkedin.com/in/mcruzlillian/">Linkedin</a></p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+    <script src="pesquisar.js"></script>
+</body>
+
+</html>
